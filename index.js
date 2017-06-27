@@ -6,3 +6,5 @@ exports.getModels = function () {
         return mongoose.model(n);
     });
 };
+var $exports = module.exports;
+exports.default = $exports;

@@ -7,3 +7,7 @@ export const getModels = function(){
     return mongoose.model(n);
   });
 };
+
+
+const $exports = module.exports;
+export default $exports;
