@@ -1,0 +1,24 @@
+{
+  "name": "mongoose-models",
+  "version": "0.0.101",
+  "description": "Retrieve mongoose models using array destructuring",
+  "main": "index.js",
+  "scripts": {
+    "test": "suman"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ORESoftware/mongoose-models.git"
+  },
+  "keywords": [
+    "mongoose",
+    "database",
+    "models"
+  ],
+  "author": "Olegzandr VD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ORESoftware/mongoose-models/issues"
+  },
+  "homepage": "https://github.com/ORESoftware/mongoose-models#readme"
+}
