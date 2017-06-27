@@ -1,6 +1,6 @@
 {
   "name": "get-mongoose-models",
-  "version": "0.0.101",
+  "version": "0.0.102",
   "description": "Retrieve mongoose models using array destructuring",
   "main": "index.js",
   "scripts": {
