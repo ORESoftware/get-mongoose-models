@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/ORESoftware/mongoose-models/issues"
   },
-  "homepage": "https://github.com/ORESoftware/mongoose-models#readme"
+  "homepage": "https://github.com/ORESoftware/mongoose-models#readme",
+  "devDependencies": {
+    "@types/mongoose": "^4.7.18",
+    "@types/node": "^8.0.4"
+  }
 }
