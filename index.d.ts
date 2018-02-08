@@ -1,5 +1,5 @@
-import * as mongoose from 'mongoose';
-export declare const getModels: (...args: string[]) => mongoose.Model<mongoose.Document>[];
+export declare const setMongoose: (v: any) => void;
+export declare const getModels: (...args: string[]) => any[];
 export interface GMM {
     getModels: typeof getModels;
 }

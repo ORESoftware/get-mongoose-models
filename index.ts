@@ -1,8 +1,15 @@
-import * as mongoose from 'mongoose';
+
+const settings = <any>{
+  myMongoose :  null
+};
+
+export const setMongoose = function (v: any) {
+  settings.myMongoose = v;
+};
 
 export const getModels = function (...args: string[]) {
   return Array.from(arguments).map(function (n) {
-    return mongoose.model(n);
+    return settings.myMongoose.model(n);
   });
 };
 
