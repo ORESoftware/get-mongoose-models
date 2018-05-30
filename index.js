@@ -1,5 +1,4 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 var settings = {
     myMongoose: null
 };
@@ -16,4 +15,5 @@ exports.getModels = function () {
     });
 };
 var $exports = module.exports;
+Object.defineProperty(exports, "__esModule", { value: true });
 exports.default = $exports;
